@@ -38,7 +38,7 @@ const BlogsListItem = ({ item }) => {
                 <Avatar name={name} />
                 <span className="font-medium">{name}</span>
               </div>
-              <div className="text-sm">{formatPostingTime(createdAt)}</div>
+              <div className="text-sm">{formatPostingTime(createdAt.toDate())}</div>
             </div>
           </div>
         </div>

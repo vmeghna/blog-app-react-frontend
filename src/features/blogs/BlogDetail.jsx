@@ -39,8 +39,8 @@ const BlogDetail = () => {
 
   return (
     <div >
-      <h1 className='text-[4rem] text-red-600 text-bold'>{blog.title}</h1>
-      <p className=' text-[1.2rem] tracking-wide'>{blog.content}</p>
+      <h1 className='text-[4rem] text-red-600 text-bold text-transform: capitalize'>{blog.title}</h1>
+      <p className=' text-[1.2rem] tracking-wide '>{blog.content}</p>
       <p className='text-[1.1rem] mt-4 text-blue-700'>Author: {blog.author.name}</p>
       <p className='text-[1.1rem] mt-4 text-blue-700'>Tag: {blog.tag}</p>
       <p className='text-[1.1rem] mt-4 text-blue-700 mb-8' >Created At: {blog.createdAt.toDate().toString()}</p>

@@ -68,7 +68,7 @@ const CreateBlog = () => {
 
         {/* Subtitle */}
         <label className="form-control">
-          <div className="label">Subtitle</div>
+          <div className="label ">Subtitle</div>
           <input
             type="text"
             placeholder="e.g. Exploring the possibilities and potential pitfalls of AI"
@@ -112,7 +112,7 @@ const CreateBlog = () => {
             <option value="Food">Food</option>
             <option value="Improvement">Improvement</option>
             <option value="Lifestyle">Lifestyle</option>
-            <option value="Travel">Travel</option>
+            <option value="Education">Education</option>
             <option value="Environment">Environment</option>
           </select>
           {errors?.tag?.message && (

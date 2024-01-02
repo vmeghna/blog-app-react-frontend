@@ -86,7 +86,7 @@ const Login = () => {
           <input
             type="text"
             name="email"
-            placeholder="e.g. jififo2506@apdiv.com"
+            placeholder="e.g. rabby@gmail.com"
             className="input input-bordered w-full"
             value={userCredentials.email}
             onChange={handleChange}
@@ -102,7 +102,7 @@ const Login = () => {
           <input
             type="password"
             name="password"
-            placeholder="e.g. 123456"
+            placeholder="e.g. 12345678"
             className="input input-bordered w-full"
             value={userCredentials.password}
             onChange={handleChange}
